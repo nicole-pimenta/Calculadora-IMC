@@ -4,7 +4,7 @@ Esse foi um desafio proposto , de nível inicante, pelo curso JSRaiz do Professo
 
 # Calculadora IMC
 
-Vamos fazer o famoso exemplo da calculadora IMC.
+Irei fazer o famoso exemplo da calculadora IMC você podera conferir através da seguinte URL https://nicole-pimenta.github.io/Calculadora-IMC/
 
 ## Como funciona
 
