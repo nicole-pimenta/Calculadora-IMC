@@ -1,19 +1,9 @@
+const weight = document.querySelector(".peso");
+const height = document.querySelector(".altura");
 const button = document.getElementById("btn");
+const resetButton = document.querySelector(".btn_reset");
 const containerFeedback = document.getElementById("feedback");
-
-button.addEventListener("click", function () {
-  const weight = document.querySelector(".peso");
-  const height = document.querySelector(".altura");
-  const imcOutput = document.createElement("h2");
-  imcOutput.setAttribute("class", "output");
-
-  const imc = calculateIMC(weight.value, height.value);
-  imcOutput.innerText = calculateFeedback(imc);
-
-  containerFeedback.appendChild(imcOutput);
-  weight.value = "";
-  height.value = "";
-});
+const imcOutput = document.createElement("h2");
 
 const calculateIMC = (weight, height) => {
   const IMC = weight / (height * height);
@@ -40,3 +30,18 @@ const calculateFeedback = (imc) => {
     return "Obesidade grau 3";
   }
 };
+
+button.addEventListener("click", function () {
+  imcOutput.setAttribute("class", "output");
+
+  const imc = calculateIMC(weight.value, height.value);
+  imcOutput.innerText = calculateFeedback(imc);
+
+  containerFeedback.appendChild(imcOutput);
+});
+
+resetButton.addEventListener("click", function () {
+  weight.value = "";
+  height.value = "";
+  imcOutput.innerText = "";
+});

@@ -16,7 +16,7 @@ select:focus {
 body {
   height: 100vh;
   background-color: black;
-  display: flex;
+
   align-items: center;
   justify-content: center;
 }
@@ -36,7 +36,6 @@ body {
 
 .container-input {
   height: 90%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +62,7 @@ input {
 button {
   background-color: #0affbe;
   border-radius: 20px;
-  max-width: 600px;
+  max-width: 300px;
   width: 90%;
   height: 40px;
   margin: 30px;
