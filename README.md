@@ -10,7 +10,7 @@ Vamos fazer o famoso exemplo da calculadora IMC.
 
 O IMC (Índice de Massa Corporal) é uma ferramenta usada para detectar casos de obesidade ou desnutrição.
 
-Para calcular, você precisa saber a altura (em metros) e peso da pessoa. Com essas informações, você aplica a fórmula e retorna o feedback com base no resultado.
+Para calcular, você precisa saber a altura (em metros) e peso(em kilos) da pessoa. Com essas informações, você aplica a fórmula e retorna o feedback com base no resultado.
 
 A fórmula é a seguinte:
 
