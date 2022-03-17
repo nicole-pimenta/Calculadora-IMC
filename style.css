@@ -22,12 +22,16 @@ body {
 }
 
 .container {
-  height: 500px;
-  width: 80%;
-  margin: 5% au;
+  height: 60%;
+  max-width: 60%;
+  width: 500px;
+  margin: 5% auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 2px solid #fdfffc;
+  padding: 50px;
+  box-shadow: 10px 10px 5px #979595;
 }
 
 .container-input {
@@ -39,7 +43,8 @@ body {
   justify-content: center;
 }
 
-h1 {
+h1,
+h2 {
   color: white;
   justify-content: left;
   margin-bottom: 20px;
@@ -61,12 +66,30 @@ button {
   max-width: 600px;
   width: 90%;
   height: 40px;
-  margin: 50px;
+  margin: 30px;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
+button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
 .container-feedback {
-  background-color: brown;
-  height: 300px;
+  border: 2px solid #0affbe;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.output {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
 }
