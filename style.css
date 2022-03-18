@@ -16,26 +16,25 @@ select:focus {
 body {
   height: 100vh;
   background-color: black;
-
   align-items: center;
   justify-content: center;
 }
 
 .container {
-  height: 60%;
-  max-width: 60%;
+  height: 70vh;
+  max-width: 80vw;
   width: 500px;
-  margin: 5% auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: 2px solid #fdfffc;
-  padding: 50px;
+  padding: 30px;
   box-shadow: 10px 10px 5px #979595;
 }
 
 .container-input {
-  height: 90%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,13 +45,13 @@ h1,
 h2 {
   color: white;
   justify-content: left;
-  margin: 20px;
+  margin: 10px;
 }
 input {
   width: 90%;
   max-width: 600px;
   height: 50px;
-  margin: 30px;
+  margin: 20px;
   border-bottom: 2px solid #0affbe;
   background-color: black;
   font-size: 20px;
@@ -80,7 +79,7 @@ button:hover {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
-  height: 400px;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
