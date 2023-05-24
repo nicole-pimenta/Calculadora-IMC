@@ -1,4 +1,9 @@
-# Sobre
+<h1 align="center"> Calculadora IMC</h1>
+
+<div align="center">
+<img src="./assets/img/calculadora.png" width="600px">
+
+</div> <br>
 
 Esse foi um desafio proposto , de nível inicante, pelo curso JSRaiz do Professor Airton Teshima.
 
